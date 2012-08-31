@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://gaurav.github.com/linkednames/temp/manica.owl#"
+     xml:base="http://gaurav.github.com/linkednames/temp/manica.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990004 -->
+
+    <owl:ObjectProperty rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990004">
+        <rdfs:label xml:lang="en">hasURL</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990005 -->
+
+    <owl:ObjectProperty rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990005">
+        <rdfs:label xml:lang="en">hasNameURL</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990004"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990006 -->
+
+    <owl:ObjectProperty rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990006">
+        <rdfs:label xml:lang="en">hasChildTaxon</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990007"/>
+        <owl:inverseOf rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990010"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990007 -->
+
+    <owl:ObjectProperty rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990007">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">containsTaxon</rdfs:label>
+        <owl:inverseOf rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990009"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990009 -->
+
+    <owl:ObjectProperty rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990009">
+        <rdfs:label xml:lang="en">hasHigherTaxon</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990010 -->
+
+    <owl:ObjectProperty rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990010">
+        <rdfs:label xml:lang="en">hasParentTaxon</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990009"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990015 -->
+
+    <owl:ObjectProperty rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990015">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label xml:lang="en">inTNRS</rdfs:label>
+        <rdfs:domain rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990008"/>
+        <rdfs:range rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990021"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990020 -->
+
+    <owl:ObjectProperty rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990020">
+        <rdf:type rdf:resource="&owl;ReflexiveProperty"/>
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">isIdenticalTo</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990000 -->
+
+    <owl:DatatypeProperty rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990000">
+        <rdfs:label xml:lang="en">hasUniqueName</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990002"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990002 -->
+
+    <owl:DatatypeProperty rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990002">
+        <rdfs:label xml:lang="en">hasName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990003 -->
+
+    <owl:DatatypeProperty rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990003">
+        <rdfs:label xml:lang="en">hasSynonym</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990002"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990011 -->
+
+    <owl:DatatypeProperty rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990011">
+        <rdfs:label xml:lang="en">createdByReference</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990012"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990012 -->
+
+    <owl:DatatypeProperty rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990012">
+        <rdfs:label xml:lang="en">hasReference</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990001 -->
+
+    <owl:Class rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990001">
+        <rdfs:label xml:lang="en">Name</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990000"/>
+                <owl:qualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="&xsd;string"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990008 -->
+
+    <owl:Class rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990008">
+        <rdfs:label xml:lang="en">NameInTNRS</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990001"/>
+    </owl:Class>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990021 -->
+
+    <owl:Class rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990021">
+        <rdfs:label xml:lang="en">TNRS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990016 -->
+
+    <owl:NamedIndividual rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990016">
+        <rdf:type rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990021"/>
+        <rdfs:label xml:lang="en">ITIS</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990017 -->
+
+    <owl:NamedIndividual rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990017">
+        <rdfs:label xml:lang="en">Manica Jurine, 1807: 276</rdfs:label>
+        <LN_990000>Manica Jurine, 1807</LN_990000>
+        <LN_990015 rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990018"/>
+        <LN_990005 rdf:resource="http://species.wikimedia.org/w/index.php?title=Manica&amp;oldid=1169938"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990018 -->
+
+    <owl:NamedIndividual rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990018">
+        <rdf:type rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990021"/>
+        <rdfs:label xml:lang="en">Wikispecies</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990025 -->
+
+    <owl:NamedIndividual rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990025">
+        <rdfs:label>Manica Jurine, 1807</rdfs:label>
+        <LN_990000>Manica Jurine, 1807</LN_990000>
+        <LN_990015 rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990016"/>
+        <LN_990020 rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990017"/>
+        <LN_990009 rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990026"/>
+        <LN_990006 rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990027"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990026 -->
+
+    <owl:NamedIndividual rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990026">
+        <rdfs:label xml:lang="en">Formicidae (Wikispecies)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://gaurav.github.com/linkednames/temp/manica.owl#LN_990027 -->
+
+    <owl:NamedIndividual rdf:about="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990027">
+        <rdfs:label xml:lang="en">Manica bradleyi (Wheeler, 1909)</rdfs:label>
+        <LN_990003>Manica calderoni (Forel)</LN_990003>
+        <LN_990003>Aphaenogaster calderoni Forel</LN_990003>
+        <LN_990011>Wheeler, W.M. 1909: A decade of North American Formicidae. Journal of the New York Entomological Society, 17: 77-90.</LN_990011>
+        <LN_990000>Manica bradleyi (Wheeler, 1909)</LN_990000>
+        <LN_990012>Forel. 1914: Le genre Camponotus Mayr et les genres voisins. Revue Suisse de Zoologie, 22: 257-276.</LN_990012>
+        <LN_990015 rdf:resource="http://gaurav.github.com/linkednames/temp/manica.owl#LN_990018"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://species.wikimedia.org/w/index.php?title=Manica&amp;oldid=1169938 -->
+
+    <owl:NamedIndividual rdf:about="http://species.wikimedia.org/w/index.php?title=Manica&amp;oldid=1169938">
+        <rdfs:label xml:lang="en">Manica on Wikispecies</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&amp;search_value=574093">
+        <rdfs:label>Manica Jurine, 1807</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+
