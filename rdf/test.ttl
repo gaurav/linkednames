@@ -1,0 +1,8 @@
+@prefix : <http://example.org/> .
+
+<http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=574093> :hasName "Manica Jurine, 1807"
+.
+
+<http://species.wikimedia.org/w/index.php?title=Manica&oldid=1169938> :hasName "Manica Jurine, 1807"
+
+# The magic words are: CONSTRUCT { ?s <http://example.org/isIdenticalTo> ?o}  WHERE { ?s <http://example.org/hasName> ?name. ?o <http://example.org/hasName> ?name. }
