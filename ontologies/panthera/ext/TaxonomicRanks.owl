@@ -1,0 +1,613 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.yso.fi/onto/taxonomic-ranks#"
+     xml:base="http://www.yso.fi/onto/taxonomic-ranks"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.yso.fi/onto/taxonomic-ranks"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/BioVariety -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/BioVariety">
+        <rdfs:label rdf:datatype="&xsd;string">Biovariety</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Candidate -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Candidate">
+        <rdfs:label rdf:datatype="&xsd;string">Candidate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Class -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Class">
+        <rdfs:label rdf:datatype="&xsd;string">Class</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Convar -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Convar">
+        <rdfs:label rdf:datatype="&xsd;string">Convar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Cultivar -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Cultivar">
+        <rdfs:label rdf:datatype="&xsd;string">Cultivar</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/CultivarGroup -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/CultivarGroup">
+        <rdfs:label rdf:datatype="&xsd;string">Cultivar group</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/DenominationClass -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/DenominationClass">
+        <rdfs:label rdf:datatype="&xsd;string">Denomination class</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Division -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Division">
+        <rdfs:label rdf:datatype="&xsd;string">Division</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Domain -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Domain">
+        <rdfs:label rdf:datatype="&xsd;string">Domain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Empire -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Empire">
+        <rdfs:label rdf:datatype="&xsd;string">Empire</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Family -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Family">
+        <rdfs:label rdf:datatype="&xsd;string">Family</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Form -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Form">
+        <rdfs:label rdf:datatype="&xsd;string">Form</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Genus -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Genus">
+        <rdfs:label rdf:datatype="&xsd;string">Genus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/GraftChimaera -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/GraftChimaera">
+        <rdfs:label rdf:datatype="&xsd;string">Graft chimaera</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Grex -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Grex">
+        <rdfs:label rdf:datatype="&xsd;string">Grex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Infraclass -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Infraclass">
+        <rdfs:label rdf:datatype="&xsd;string">Infraclass</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Infradivision -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Infradivision">
+        <rdfs:label rdf:datatype="&xsd;string">Infradivision</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Infrafamily -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Infrafamily">
+        <rdfs:label rdf:datatype="&xsd;string">Infrafamily</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/InfragenericTaxon -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/InfragenericTaxon">
+        <rdfs:label rdf:datatype="&xsd;string">Infrageneric taxon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Infragenus -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Infragenus">
+        <rdfs:label rdf:datatype="&xsd;string">Infragenus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Infrakingdom -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Infrakingdom">
+        <rdfs:label rdf:datatype="&xsd;string">Infrakingdom</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Infraorder -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Infraorder">
+        <rdfs:label rdf:datatype="&xsd;string">Infraorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Infraphylum -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Infraphylum">
+        <rdfs:label rdf:datatype="&xsd;string">Infraphylum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Infraspecies -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Infraspecies">
+        <rdfs:label rdf:datatype="&xsd;string">Infraspecies</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/InfraspecificTaxon -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/InfraspecificTaxon">
+        <rdfs:label rdf:datatype="&xsd;string">Infraspecific taxon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Infratribe -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Infratribe">
+        <rdfs:label rdf:datatype="&xsd;string">Infratribe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Kingdom -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Kingdom">
+        <rdfs:label rdf:datatype="&xsd;string">Kingdom</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Order -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Order">
+        <rdfs:label rdf:datatype="&xsd;string">Order</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/PathoVariety -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/PathoVariety">
+        <rdfs:label rdf:datatype="&xsd;string">Pathovariety</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Phylum -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Phylum">
+        <rdfs:label rdf:datatype="&xsd;string">Phylum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Section -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Section">
+        <rdfs:label rdf:datatype="&xsd;string">Section</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Series -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Series">
+        <rdfs:label rdf:datatype="&xsd;string">Series</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/SpecialForm -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/SpecialForm">
+        <rdfs:label rdf:datatype="&xsd;string">Special form</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Species -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Species">
+        <rdfs:label rdf:datatype="&xsd;string">Species</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/SpeciesAggregate -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/SpeciesAggregate">
+        <rdfs:label rdf:datatype="&xsd;string">Species aggregate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/SpeciesOrInfraspecific -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/SpeciesOrInfraspecific">
+        <rdfs:label rdf:datatype="&xsd;string">Species or infraspecific taxon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Used in name collections</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/SubSubVariety -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/SubSubVariety">
+        <rdfs:label rdf:datatype="&xsd;string">Subsubvariety</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Subclass -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Subclass">
+        <rdfs:label rdf:datatype="&xsd;string">Subclass</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Subdivision -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Subdivision">
+        <rdfs:label rdf:datatype="&xsd;string">Subdivision</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Subfamily -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Subfamily">
+        <rdfs:label rdf:datatype="&xsd;string">Subfamily</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Subform -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Subform">
+        <rdfs:label rdf:datatype="&xsd;string"></rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Subgenus -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Subgenus">
+        <rdfs:label rdf:datatype="&xsd;string">Subgenus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Subkingdom -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Subkingdom">
+        <rdfs:label rdf:datatype="&xsd;string">Subkingdom</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Suborder -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Suborder">
+        <rdfs:label rdf:datatype="&xsd;string">Suborder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Subphylum -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Subphylum">
+        <rdfs:label rdf:datatype="&xsd;string">Subphylum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Subsection -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Subsection">
+        <rdfs:label rdf:datatype="&xsd;string">Subsection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Subseries -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Subseries">
+        <rdfs:label rdf:datatype="&xsd;string">Subseries</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Subspecies -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Subspecies">
+        <rdfs:label rdf:datatype="&xsd;string">Subspecies</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/SubspecificAggregate -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/SubspecificAggregate">
+        <rdfs:label rdf:datatype="&xsd;string">Subspecific aggregate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Subsubform -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Subsubform">
+        <rdfs:label rdf:datatype="&xsd;string">Subsubform</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Subtribe -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Subtribe">
+        <rdfs:label rdf:datatype="&xsd;string">Subtribe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Superclass -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Superclass">
+        <rdfs:label rdf:datatype="&xsd;string">Superclass</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Superdivision -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Superdivision">
+        <rdfs:label rdf:datatype="&xsd;string">Superdivision</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Superfamily -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Superfamily">
+        <rdfs:label rdf:datatype="&xsd;string">Superfamily</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Superkingdom -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Superkingdom">
+        <rdfs:label rdf:datatype="&xsd;string">Superkingdom</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Superorder -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Superorder">
+        <rdfs:label rdf:datatype="&xsd;string">Superorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Superphylum -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Superphylum">
+        <rdfs:label rdf:datatype="&xsd;string">Superphylum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Supertribe -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Supertribe">
+        <rdfs:label rdf:datatype="&xsd;string">Supertribe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/SupragenericTaxon -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/SupragenericTaxon">
+        <rdfs:label rdf:datatype="&xsd;string">Suprageneric taxon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Tribe -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Tribe">
+        <rdfs:label rdf:datatype="&xsd;string">Tribe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/Variety -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/Variety">
+        <rdfs:label rdf:datatype="&xsd;string">Variety</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+

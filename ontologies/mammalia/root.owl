@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://gaurav.github.com/linkednames/ontologies/mammalia"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://gaurav.github.com/linkednames/ontologies/mammalia">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.yso.fi/onto/taxmeon/</Import>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100000"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100004"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100005"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100006"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100007"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://www.yso.fi/onto/taxmeon/Publication"/>
+        <NamedIndividual IRI="#LN_100002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.yso.fi/onto/taxmeon/Author"/>
+        <NamedIndividual IRI="#LN_100003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.yso.fi/onto/taxmeon/Publication"/>
+        <NamedIndividual IRI="#LN_100004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.yso.fi/onto/taxmeon/Author"/>
+        <NamedIndividual IRI="#LN_100005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.yso.fi/onto/taxmeon/Checklist"/>
+        <NamedIndividual IRI="#LN_100006"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/auctorum"/>
+        <NamedIndividual IRI="#LN_100000"/>
+        <NamedIndividual IRI="#LN_100003"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasScientificName"/>
+        <NamedIndividual IRI="#LN_100000"/>
+        <NamedIndividual IRI="#LN_100007"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasScientificNameAuthorship"/>
+        <NamedIndividual IRI="#LN_100000"/>
+        <NamedIndividual IRI="#LN_100002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/occursInChecklist"/>
+        <NamedIndividual IRI="#LN_100000"/>
+        <NamedIndividual IRI="#LN_100006"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/publishedOriginallyIn"/>
+        <NamedIndividual IRI="#LN_100000"/>
+        <NamedIndividual IRI="#LN_100002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/isPartOfHigherTaxon"/>
+        <NamedIndividual IRI="#LN_100001"/>
+        <NamedIndividual IRI="#LN_100000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/isPublishedIn"/>
+        <NamedIndividual IRI="#LN_100001"/>
+        <NamedIndividual IRI="#LN_100004"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/occursInChecklist"/>
+        <NamedIndividual IRI="#LN_100001"/>
+        <NamedIndividual IRI="#LN_100006"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <NamedIndividual IRI="#LN_100002"/>
+        <NamedIndividual IRI="#LN_100003"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <NamedIndividual IRI="#LN_100004"/>
+        <NamedIndividual IRI="#LN_100005"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.yso.fi/onto/taxmeon/auctorumYear"/>
+        <NamedIndividual IRI="#LN_100000"/>
+        <Literal datatypeIRI="&xsd;int">1758</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.yso.fi/onto/taxmeon/completeAuctorumString"/>
+        <NamedIndividual IRI="#LN_100000"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Linnaeus, 1758</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <NamedIndividual IRI="#LN_100002"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Systema Naturae, 10th Edition</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.yso.fi/onto/taxmeon/bibliographicCitation"/>
+        <NamedIndividual IRI="#LN_100002"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Linnaeus, C. 1758. Systema Naturae. 10th edition.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.yso.fi/onto/taxmeon/publishedInYear"/>
+        <NamedIndividual IRI="#LN_100002"/>
+        <Literal datatypeIRI="&xsd;int">1758</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.yso.fi/onto/taxmeon/firstName"/>
+        <NamedIndividual IRI="#LN_100003"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Carl</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.yso.fi/onto/taxmeon/lastName"/>
+        <NamedIndividual IRI="#LN_100003"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Linnaeus</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.yso.fi/onto/taxmeon/bibliographicCitation"/>
+        <NamedIndividual IRI="#LN_100004"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Gill, T. 1872. Arrangement of the families of mammals. Washington, D.C.: Smithsonian Inst.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.yso.fi/onto/taxmeon/firstName"/>
+        <NamedIndividual IRI="#LN_100005"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Theodore</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.yso.fi/onto/taxmeon/lastName"/>
+        <NamedIndividual IRI="#LN_100005"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Gill</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.yso.fi/onto/taxmeon/bibliographicCitation"/>
+        <NamedIndividual IRI="#LN_100006"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Wilson DE and Reeder DM (2011). Class Mammalia Linnaeus, 1758. In: Zhang, Z.-Q. (Ed.) Animal biodiversity: An outline of higher-level classification and survey of taxonomic richness</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.yso.fi/onto/taxmeon/publishedInYear"/>
+        <NamedIndividual IRI="#LN_100006"/>
+        <Literal datatypeIRI="&xsd;int">2011</Literal>
+    </DataPropertyAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100000</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mammals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100001</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Prototherians</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100002</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Linnaeus 1758</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100003</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Carl Linnaeus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100004</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Gill 1872</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100005</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Theodore Gill</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100006</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Wilson &amp; Reeder 2011</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100007</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mammalia</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+

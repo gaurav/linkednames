@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://gaurav.github.com/linkednames/ontologies/panthera/panthera.owl"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://gaurav.github.com/linkednames/ontologies/panthera/panthera.owl"
+     versionIRI="http://gaurav.github.com/linkednames/ontologies/panthera/1.0.0/panthera.owl">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl</Import>
+    <Import>http://www.yso.fi/onto/taxonomic-ranks</Import>
+    <Import>http://www.yso.fi/onto/taxmeon/</Import>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100000"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100004"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100005"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100006"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100007"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100008"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100009"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100010"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://www.yso.fi/onto/taxonomic-ranks/Subspecies"/>
+        <NamedIndividual IRI="#LN_100002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.yso.fi/onto/taxmeon/Accepted"/>
+        <NamedIndividual IRI="#LN_100003"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.yso.fi/onto/taxmeon/Synonym"/>
+        <NamedIndividual IRI="#LN_100006"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.yso.fi/onto/taxonomic-ranks/Species"/>
+        <NamedIndividual IRI="#LN_100008"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasScientificName"/>
+        <NamedIndividual IRI="#LN_100000"/>
+        <NamedIndividual IRI="#LN_100002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasScientificName"/>
+        <NamedIndividual IRI="#LN_100000"/>
+        <NamedIndividual IRI="#LN_100005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/isPartOfHigherTaxon"/>
+        <NamedIndividual IRI="#LN_100000"/>
+        <NamedIndividual IRI="#LN_100007"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/occursInNameCollection"/>
+        <NamedIndividual IRI="#LN_100000"/>
+        <NamedIndividual IRI="#LN_100001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasNomenclaturalStatus"/>
+        <NamedIndividual IRI="#LN_100002"/>
+        <NamedIndividual IRI="#LN_100003"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasNomenclaturalStatus"/>
+        <NamedIndividual IRI="#LN_100005"/>
+        <NamedIndividual IRI="#LN_100006"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasTaxonomicStatus"/>
+        <NamedIndividual IRI="#LN_100005"/>
+        <NamedIndividual IRI="#LN_100006"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasScientificName"/>
+        <NamedIndividual IRI="#LN_100007"/>
+        <NamedIndividual IRI="#LN_100008"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/isPartOfHigherTaxon"/>
+        <NamedIndividual IRI="#LN_100007"/>
+        <NamedIndividual IRI="#LN_100009"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/publishedOriginallyIn"/>
+        <NamedIndividual IRI="#LN_100008"/>
+        <NamedIndividual IRI="#LN_100004"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasScientificName"/>
+        <NamedIndividual IRI="#LN_100009"/>
+        <NamedIndividual IRI="#LN_100010"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.yso.fi/onto/taxmeon/publishedInYear"/>
+        <NamedIndividual IRI="#LN_100001"/>
+        <Literal datatypeIRI="&xsd;int">2005</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasTaxonomicStatus"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100000</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Panthera tigris tigris (Linnaeus, 1758) sec W. Christopher Wozencraft, 2005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>#LN_100001</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">W. Christopher Wozencraft</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100001</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Wilson &amp; Reeder&apos;s Mammal Species of the World, 3rd Edition online, section: Mammalia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#LN_100001</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://www.vertebrates.si.edu/msw/mswcfapp/msw/index.cfm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100002</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Panthera tigris tigris (Linnaeus, 1758)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100003</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Accepted name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100004</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Systema Naturae 1758</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100005</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">fluviatilis Sterndale, 1884</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100006</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Junior synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100007</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Panthera tigris (Linnaeus, 1758) sec W. Christopher Wozencraft, 2005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100008</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Panthera tigris (Linnaeus, 1758)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100009</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Panthera Oken, 1816 sec W. Christopher Wozencraft, 2005</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100010</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Panthera Oken, 1816</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+
