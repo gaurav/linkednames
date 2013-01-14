@@ -1,0 +1,33 @@
+
+# Standard includes.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix taxmeon: <http://schema.onki.fi/taxmeon/#> .
+
+# TODO -- include taxmeon, rdf and MAGIC
+
+# External references
+@prefix aswbib: <http://research.amnh.org/vz/herpetology/amphibia/?action=bib&id=> .
+
+# Our property namespaces.
+
+# Our data namespaces
+@prefix name: <http://gaurav.github.com/linkednames/rdf/alytidae.rdf#name_> .
+@prefix txnc: <http://gaurav.github.com/linkednames/rdf/alytidae.rdf#tc_> . 
+@prefix lit: <http://gaurav.github.com/linkednames/rdf/alytidae.rdf#lit_> .
+
+# Alytidae Fitzinger, 1843
+txnc:Alytidae
+    rdf:label "Alytidae Fitzinger, 1843 sec ASW5.6";
+    taxmeon:occursInNameCollection lit:ASW56 ;
+    taxmeon:hasScientificName name:Alytidae ;
+.
+
+name:Alytidae
+    rdf:label "Alytidae Fitzinger, 1843";
+.
+
+lit:ASW56
+    rdf:label "Amphibian Species of the World, 5.6" ;
+    dc:bibliographicCitation "Frost, Darrel R. 2013. Amphibian Species of the World: an Online Reference. Version 5.6 (9 January 2013). Electronic Database accessible at http://research.amnh.org/herpetology/amphibia/index.html. American Museum of Natural History, New York, USA." ;
+.

@@ -26,6 +26,9 @@
     <Import>http://www.yso.fi/onto/taxonomic-ranks</Import>
     <Import>http://www.yso.fi/onto/taxmeon/</Import>
     <Declaration>
+        <ObjectProperty IRI="#LN_100003"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#LN_100000"/>
     </Declaration>
     <Declaration>
@@ -39,9 +42,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#LN_100005"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#LN_100006"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#LN_100007"/>
@@ -58,14 +58,6 @@
     <ClassAssertion>
         <Class IRI="http://www.yso.fi/onto/taxonomic-ranks/Subspecies"/>
         <NamedIndividual IRI="#LN_100002"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.yso.fi/onto/taxmeon/Accepted"/>
-        <NamedIndividual IRI="#LN_100003"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://www.yso.fi/onto/taxmeon/Synonym"/>
-        <NamedIndividual IRI="#LN_100006"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://www.yso.fi/onto/taxonomic-ranks/Species"/>
@@ -92,19 +84,9 @@
         <NamedIndividual IRI="#LN_100001"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasNomenclaturalStatus"/>
+        <ObjectProperty IRI="#LN_100003"/>
+        <NamedIndividual IRI="#LN_100005"/>
         <NamedIndividual IRI="#LN_100002"/>
-        <NamedIndividual IRI="#LN_100003"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasNomenclaturalStatus"/>
-        <NamedIndividual IRI="#LN_100005"/>
-        <NamedIndividual IRI="#LN_100006"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasTaxonomicStatus"/>
-        <NamedIndividual IRI="#LN_100005"/>
-        <NamedIndividual IRI="#LN_100006"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasScientificName"/>
@@ -135,6 +117,14 @@
         <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasTaxonomicStatus"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#LN_100003"/>
+        <Class IRI="http://www.yso.fi/onto/taxmeon/ScientificName"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LN_100003"/>
+        <Class IRI="http://www.yso.fi/onto/taxmeon/ScientificName"/>
+    </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#LN_100000</IRI>
@@ -163,7 +153,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#LN_100003</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Accepted name</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Is junior synonym of</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -174,11 +164,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#LN_100005</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">fluviatilis Sterndale, 1884</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#LN_100006</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Junior synonym</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

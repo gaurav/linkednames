@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:taxmeon="http://schema.onki.fi/taxmeon/#" xmlns:txnc="http://gaurav.github.com/linkednames/rdf/alytidae.rdf#tc_" xmlns:name="http://gaurav.github.com/linkednames/rdf/alytidae.rdf#name_" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:lit="http://gaurav.github.com/linkednames/rdf/alytidae.rdf#lit_">
+	<rdf:Description rdf:about="http://gaurav.github.com/linkednames/rdf/alytidae.rdf#tc_Alytidae">
+		<rdf:label>Alytidae Fitzinger, 1843 sec ASW5.6</rdf:label>
+		<taxmeon:occursInNameCollection rdf:resource="http://gaurav.github.com/linkednames/rdf/alytidae.rdf#lit_ASW56" rdf:label="Amphibian Species of the World, 5.6" dc:bibliographicCitation="Frost, Darrel R. 2013. Amphibian Species of the World: an Online Reference. Version 5.6 (9 January 2013). Electronic Database accessible at http://research.amnh.org/herpetology/amphibia/index.html. American Museum of Natural History, New York, USA." />
+		<taxmeon:hasScientificName rdf:resource="http://gaurav.github.com/linkednames/rdf/alytidae.rdf#name_Alytidae" rdf:label="Alytidae Fitzinger, 1843" />
+	</rdf:Description>
+</rdf:RDF>

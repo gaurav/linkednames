@@ -1,0 +1,1283 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY vs "http://www.w3.org/2003/06/sw-vocab-status/ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.yso.fi/onto/taxmeon/"
+     xml:base="http://www.yso.fi/onto/taxmeon/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#">
+    <owl:Ontology rdf:about="http://www.yso.fi/onto/taxmeon/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="&vs;term_status"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
+        <rdfs:label xml:lang="en">Creator</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="http://www.yso.fi/onto/taxmeon/Author"/>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/Reference"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/after -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/after">
+        <rdfs:label xml:lang="en">After</rdfs:label>
+        <rdfs:label xml:lang="fi">Muutoksen jälkeen</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/Change"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/ScientificName"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/auctorum -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/auctorum">
+        <rdfs:label xml:lang="en">Auctorum</rdfs:label>
+        <rdfs:label xml:lang="fi">Auktori</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="http://www.yso.fi/onto/taxmeon/Author"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/ScientificName"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/before -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/before">
+        <rdfs:label xml:lang="en">Before</rdfs:label>
+        <rdfs:label xml:lang="fi">Nimi ennen muutosta</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/Change"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/ScientificName"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/congruentWithTaxon -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/congruentWithTaxon">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">Congruent with  taxon</rdfs:label>
+        <rdfs:label xml:lang="fi">Samaa tarkoittava taksoni</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <owl:inverseOf rdf:resource="http://www.yso.fi/onto/taxmeon/congruentWithTaxon"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/congruentWithTaxonInt -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/congruentWithTaxonInt">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">Intensionally congruent with taxon</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:subPropertyOf rdf:resource="http://www.yso.fi/onto/taxmeon/congruentWithTaxon"/>
+        <owl:inverseOf rdf:resource="http://www.yso.fi/onto/taxmeon/congruentWithTaxonInt"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/congruentWithTaxonOst -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/congruentWithTaxonOst">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">Ostensively congruent with taxon</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:subPropertyOf rdf:resource="http://www.yso.fi/onto/taxmeon/congruentWithTaxon"/>
+        <owl:inverseOf rdf:resource="http://www.yso.fi/onto/taxmeon/congruentWithTaxonOst"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/hasNameStatus -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/hasNameStatus">
+        <rdfs:label xml:lang="en">Has name status</rdfs:label>
+        <rdfs:label xml:lang="fi">Nimen status</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInNameCollection"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/NomenclaturalStatus"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/SpellingStatus"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicStatus"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/hasNomenclaturalStatus -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/hasNomenclaturalStatus">
+        <rdfs:label xml:lang="en">Has  nomenclatural status</rdfs:label>
+        <rdfs:label xml:lang="fi">Nomenklatuurinen status</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="http://www.yso.fi/onto/taxmeon/NomenclaturalStatus"/>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/ScientificName"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/hasPart">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">Has part</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <owl:inverseOf rdf:resource="http://www.yso.fi/onto/taxmeon/isPartOf"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/hasPartInt -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/hasPartInt">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">Has intensionally part</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:subPropertyOf rdf:resource="http://www.yso.fi/onto/taxmeon/hasPart"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/hasPartOst -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/hasPartOst">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">Has ostensively part</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:subPropertyOf rdf:resource="http://www.yso.fi/onto/taxmeon/hasPart"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/hasScientificName -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/hasScientificName">
+        <rdfs:label xml:lang="en">Has scientific name</rdfs:label>
+        <rdfs:label xml:lang="fi">Tieteellinen nimi</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="http://www.yso.fi/onto/taxmeon/ScientificName"/>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/hasScientificNameAuthorship -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/hasScientificNameAuthorship">
+        <rdfs:label xml:lang="en">Has scientific name authorship</rdfs:label>
+        <rdfs:label xml:lang="fi">Taksonin kuvaaja</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="http://www.yso.fi/onto/taxmeon/Author"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/ScientificName"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/hasTaxonomicStatus -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/hasTaxonomicStatus">
+        <rdfs:label xml:lang="en">Has taxonomic status</rdfs:label>
+        <rdfs:label xml:lang="fi">Taksonominen status</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/ScientificName"/>
+        <rdfs:range rdf:resource="http://www.yso.fi/onto/taxmeon/TaxonomicStatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/hasVernacularName -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/hasVernacularName">
+        <rdfs:label xml:lang="en">Has vernacular name</rdfs:label>
+        <rdfs:label xml:lang="fi">Kansankielinen nimi</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="http://www.yso.fi/onto/taxmeon/VernacularName"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInNameCollection"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInUpperClassification"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/hasVernacularNameStatus -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/hasVernacularNameStatus">
+        <rdfs:label xml:lang="en">Has vernacular name status</rdfs:label>
+        <rdfs:label xml:lang="fi">Kansankielisen nimen status</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/VernacularName"/>
+        <rdfs:range rdf:resource="http://www.yso.fi/onto/taxmeon/VernacularNameStatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/isAssociatedWithTaxon -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/isAssociatedWithTaxon">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:label xml:lang="en">Is associated with  taxon</rdfs:label>
+        <rdfs:label xml:lang="fi">Yhteys taksoniin</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+        <rdfs:range rdf:resource="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+        <owl:inverseOf rdf:resource="http://www.yso.fi/onto/taxmeon/isAssociatedWithTaxon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/isPartOf">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">Is part of taxon</rdfs:label>
+        <rdfs:label xml:lang="fi">Kuuluu taksoniin</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/isPartOfHigherTaxon -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/isPartOfHigherTaxon">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">Is part of higher taxon</rdfs:label>
+        <rdfs:label xml:lang="fi">Kuuluu ylempään taksoniin</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Is used for describing the hierarchy</rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInNameCollection"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInUpperClassification"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInNameCollection"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInUpperClassification"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/isPartOfInt -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/isPartOfInt">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">Is intensionally part of taxon</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <owl:inverseOf rdf:resource="http://www.yso.fi/onto/taxmeon/hasPartInt"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.yso.fi/onto/taxmeon/isPartOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/isPartOfOst -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/isPartOfOst">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">Is ostensively part of taxon</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <owl:inverseOf rdf:resource="http://www.yso.fi/onto/taxmeon/hasPartOst"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.yso.fi/onto/taxmeon/isPartOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/isPublishedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/isPublishedIn">
+        <rdfs:label xml:lang="en">Is published in</rdfs:label>
+        <rdfs:label xml:lang="fi">Julkaisu</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="http://www.yso.fi/onto/taxmeon/Reference"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/NomenclaturalStatus"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInNameCollection"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicStatus"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/VernacularNameStatus"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/nomenclaturalCode -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/nomenclaturalCode">
+        <rdfs:label xml:lang="en">Nomenclatural code</rdfs:label>
+        <rdfs:label xml:lang="fi">Nimistökoodi</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="http://www.yso.fi/onto/taxmeon/NomenclaturalCode"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/Checklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/ScientificName"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInNameCollection"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/occursInChecklist -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/occursInChecklist">
+        <rdfs:label xml:lang="en">Occurs in checklist</rdfs:label>
+        <rdfs:label xml:lang="fi">Esiintyy lajilistassa</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="http://www.yso.fi/onto/taxmeon/Checklist"/>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/occursInNameCollection -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/occursInNameCollection">
+        <rdfs:label xml:lang="en">Occurs in name collection</rdfs:label>
+        <rdfs:label xml:lang="fi">Esiintyy nimikokoelmassa</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="http://www.yso.fi/onto/taxmeon/OtherSource"/>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/TaxonInNameCollection"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/otherThanValidName -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/otherThanValidName">
+        <rdfs:label xml:lang="en">Other than valid name</rdfs:label>
+        <rdfs:label xml:lang="fi">Muu kuin voimassaoleva nimi</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInNameCollection"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInNameCollection"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/overlapsWithTaxon -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/overlapsWithTaxon">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:label xml:lang="en">Overlaps with taxon</rdfs:label>
+        <rdfs:label xml:lang="fi">Päällekkäinen taksonin kanssa</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <owl:inverseOf rdf:resource="http://www.yso.fi/onto/taxmeon/overlapsWithTaxon"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/overlapsWithTaxonInt -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/overlapsWithTaxonInt">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">Overlaps intensionally with taxon</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:subPropertyOf rdf:resource="http://www.yso.fi/onto/taxmeon/overlapsWithTaxon"/>
+        <owl:inverseOf rdf:resource="http://www.yso.fi/onto/taxmeon/overlapsWithTaxonInt"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/overlapsWithTaxonOst -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/overlapsWithTaxonOst">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">Overlaps ostensively with taxon</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:subPropertyOf rdf:resource="http://www.yso.fi/onto/taxmeon/overlapsWithTaxon"/>
+        <owl:inverseOf rdf:resource="http://www.yso.fi/onto/taxmeon/overlapsWithTaxonOst"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/publishedOriginallyIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/publishedOriginallyIn">
+        <rdfs:label xml:lang="en">Published originally in</rdfs:label>
+        <rdfs:label xml:lang="fi">Alkuperäräisjulkaisu</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="http://www.yso.fi/onto/taxmeon/Publication"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/refersToTaxon -->
+
+    <owl:ObjectProperty rdf:about="http://www.yso.fi/onto/taxmeon/refersToTaxon">
+        <rdfs:label xml:lang="en">Refers to taxon</rdfs:label>
+        <rdfs:label xml:lang="fi">Viittaa taksoniin</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string"></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInNameCollection"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonGeneral"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInNameCollection"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/publisher">
+        <rdfs:label xml:lang="en">Publisher</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/Reference"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.org/dc/elements/1.1/title">
+        <rdfs:label xml:lang="en">Title</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/Reference"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/abbreviation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.yso.fi/onto/taxmeon/abbreviation">
+        <rdfs:label xml:lang="en">Author abbreviation</rdfs:label>
+        <rdfs:label xml:lang="fi">Auktorin nimen lyhenne</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/Author"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/auctorumYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.yso.fi/onto/taxmeon/auctorumYear">
+        <rdfs:label xml:lang="en">Auctorum year</rdfs:label>
+        <rdfs:label xml:lang="fi">Alkuperäisjulkaisun vuosi</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="&xsd;int"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/ScientificName"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/bibliographicCitation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.yso.fi/onto/taxmeon/bibliographicCitation">
+        <rdfs:label xml:lang="en">Bibliographic citation</rdfs:label>
+        <rdfs:label xml:lang="fi">Kirjallisuusviite</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/Reference"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/completeAuctorumString -->
+
+    <owl:DatatypeProperty rdf:about="http://www.yso.fi/onto/taxmeon/completeAuctorumString">
+        <rdfs:label xml:lang="en">Complete auctorum citation</rdfs:label>
+        <rdfs:label xml:lang="fi">Täydellinen kirjallisuusviite</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/ScientificName"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/firstName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.yso.fi/onto/taxmeon/firstName">
+        <rdfs:label xml:lang="en">First name</rdfs:label>
+        <rdfs:label xml:lang="fi">Etunimi</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/Author"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/identificationQualifier -->
+
+    <owl:DatatypeProperty rdf:about="http://www.yso.fi/onto/taxmeon/identificationQualifier">
+        <rdfs:label xml:lang="en">Identification qualifier</rdfs:label>
+        <rdfs:label xml:lang="fi">Määrityksen tarkenne</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">e.g. aff., cf</rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+                    <rdf:Description rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/lastName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.yso.fi/onto/taxmeon/lastName">
+        <rdfs:label xml:lang="en">Last name</rdfs:label>
+        <rdfs:label xml:lang="fi">Sukunimi</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/Author"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/orderingWeight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.yso.fi/onto/taxmeon/orderingWeight">
+        <rdfs:label rdf:datatype="&xsd;string">Ordering weight</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Specifies the order in which taxa are shown in a checklist</rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="&xsd;int"/>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/TaxonInChecklist"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/publishedInYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.yso.fi/onto/taxmeon/publishedInYear">
+        <rdfs:label xml:lang="en">Published in year</rdfs:label>
+        <rdfs:label xml:lang="fi">Julkaisuvuosi</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+        <rdfs:range rdf:resource="&xsd;int"/>
+        <rdfs:domain rdf:resource="http://www.yso.fi/onto/taxmeon/Reference"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#Class -->
+
+    <owl:Class rdf:about="&rdfs;Class"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Class -->
+
+    <owl:Class rdf:about="&owl;Class">
+        <rdfs:subClassOf rdf:resource="&rdfs;Class"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/Accepted -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/Accepted">
+        <rdfs:label rdf:datatype="&xsd;string">Accepted</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxmeon/TaxonomicStatus"/>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/AcceptedVernacularName -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/AcceptedVernacularName">
+        <rdfs:label rdf:datatype="&xsd;string">Accepted vernacular name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxmeon/VernacularNameStatus"/>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/AlternativeVernacularName -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/AlternativeVernacularName">
+        <rdfs:label rdf:datatype="&xsd;string">Alternative vernacular name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxmeon/VernacularNameStatus"/>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/Author -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/Author">
+        <rdfs:label rdf:datatype="&xsd;string">Author</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">An author name of a taxon</rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/Change -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/Change">
+        <rdfs:label rdf:datatype="&xsd;string">Change</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/ChangeInCircumscription -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/ChangeInCircumscription">
+        <rdfs:label rdf:datatype="&xsd;string">Change in a taxonomic concept</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxmeon/Change"/>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/ChangeInClassification -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/ChangeInClassification">
+        <rdfs:label rdf:datatype="&xsd;string">Change in a hierarchy</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxmeon/Change"/>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/Checklist -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/Checklist">
+        <rdfs:label xml:lang="en">Checklist</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxmeon/Reference"/>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/Homonym -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/Homonym">
+        <rdfs:label rdf:datatype="&xsd;string">Homonym</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxmeon/TaxonomicStatus"/>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/Lump -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/Lump">
+        <rdfs:label rdf:datatype="&xsd;string">Lump of taxa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxmeon/Change"/>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/Misapplied -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/Misapplied">
+        <rdfs:label rdf:datatype="&xsd;string">Misapplied</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxmeon/TaxonomicStatus"/>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/NomenclaturalCode -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/NomenclaturalCode">
+        <rdfs:label rdf:datatype="&xsd;string">Nomenclature code</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/NomenclaturalStatus -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/NomenclaturalStatus">
+        <rdfs:label rdf:datatype="&xsd;string">Nomenclatural status of a taxon</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/OtherSource -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/OtherSource">
+        <rdfs:label xml:lang="en">Other source</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxmeon/Reference"/>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/ProposedVernacularName -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/ProposedVernacularName">
+        <rdfs:label rdf:datatype="&xsd;string">Proposed vernacular name</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxmeon/VernacularNameStatus"/>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/Publication -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/Publication">
+        <rdfs:label xml:lang="en">Publication</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxmeon/Reference"/>
+        <rdfs:comment rdf:datatype="&xsd;string"></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/Reference -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/Reference">
+        <rdfs:label xml:lang="en">Reference to literature</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/ScientificName -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/ScientificName">
+        <rdfs:label rdf:datatype="&xsd;string">Scientific name</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/SpellingStatus -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/SpellingStatus">
+        <rdfs:label rdf:datatype="&xsd;string">Spelling status</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">e.g. misspelling</rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/Split -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/Split">
+        <rdfs:label rdf:datatype="&xsd;string">Split of a taxon</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxmeon/Change"/>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/Synonym -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/Synonym">
+        <rdfs:label rdf:datatype="&xsd;string">Synonym</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.yso.fi/onto/taxmeon/TaxonomicStatus"/>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/TaxonGeneral -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/TaxonGeneral">
+        <rdfs:label rdf:datatype="&xsd;string">Taxon general</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">General reference to a taxon can be used if an exact relation is not known or relevant</rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/TaxonInChecklist -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInChecklist">
+        <rdfs:label rdf:datatype="&xsd;string">Taxon in a checklist</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/TaxonInNameCollection -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInNameCollection">
+        <rdfs:label rdf:datatype="&xsd;string">Taxon in a name collection</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/TaxonInUpperClassification -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/TaxonInUpperClassification">
+        <rdfs:label rdf:datatype="&xsd;string">Taxon in an upper classification</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">for creating a top level classification</rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/TaxonomicConcept -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicConcept">
+        <rdfs:label rdf:datatype="&xsd;string">Taxonomic concept</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/TaxonomicStatus -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/TaxonomicStatus">
+        <rdfs:label rdf:datatype="&xsd;string">Taxonomic status</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/VernacularName -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/VernacularName">
+        <rdfs:label rdf:datatype="&xsd;string">Vernacular name</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxmeon/VernacularNameStatus -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxmeon/VernacularNameStatus">
+        <rdfs:label rdf:datatype="&xsd;string">Vernacular name status</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    
+
+
+    <!-- http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank -->
+
+    <owl:Class rdf:about="http://www.yso.fi/onto/taxonomic-ranks/TaxonomicRank">
+        <rdfs:label rdf:datatype="&xsd;string">Taxonomic rank</rdfs:label>
+        <rdfs:comment></rdfs:comment>
+        <vs:term_status xml:lang="en">unstable</vs:term_status>
+    </owl:Class>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment></rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+
