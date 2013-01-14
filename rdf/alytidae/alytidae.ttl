@@ -1,33 +1,62 @@
 
 # Standard includes.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix taxmeon: <http://schema.onki.fi/taxmeon/#> .
-
-# TODO -- include taxmeon, rdf and MAGIC
 
 # External references
 @prefix aswbib: <http://research.amnh.org/vz/herpetology/amphibia/?action=bib&id=> .
 
-# Our property namespaces.
+# Our properties.
+@prefix taxus: <http://gaurav.github.com/linkednames/rdf/alytidae.rdf#taxus_> .
+
+taxus:hasValidScientificName
+    rdfs:subPropertyOf taxmeon:hasScientificName;
+    rdfs:label "Has a valid scientific name.";
+.
+
+taxus:hasSynonymScientificName
+    rdfs:subPropertyOf taxmeon:hasScientificName;
+    rdfs:label "Has a synonymized scientific name.";
+.
+
+taxus:namePublishedIn
+    rdfs:domain     taxmeon:ScientificName;
+    rdfs:range      taxmeon:Reference;
+.
 
 # Our data namespaces
 @prefix name: <http://gaurav.github.com/linkednames/rdf/alytidae.rdf#name_> .
 @prefix txnc: <http://gaurav.github.com/linkednames/rdf/alytidae.rdf#tc_> . 
 @prefix lit: <http://gaurav.github.com/linkednames/rdf/alytidae.rdf#lit_> .
 
-# Alytidae Fitzinger, 1843
-txnc:Alytidae
-    rdf:label "Alytidae Fitzinger, 1843 sec ASW5.6";
-    taxmeon:occursInNameCollection lit:ASW56 ;
-    taxmeon:hasScientificName name:Alytidae ;
+# Alytidae Fitzinger, 1843 from ASW5.6
+txnc:Alytidae_asw5_6
+    rdfs:label "Alytidae Fitzinger, 1843 sec ASW5.6";
+    taxmeon:occursInNameCollection lit:ASW56;
+    taxus:hasValidScientificName name:Alytidae;
 .
 
 name:Alytidae
-    rdf:label "Alytidae Fitzinger, 1843";
+    rdfs:label "Alytidae Fitzinger, 1843";
+    taxus:namePublishedIn lit:asw56_bib1698;
 .
 
 lit:ASW56
-    rdf:label "Amphibian Species of the World, 5.6" ;
+    rdfs:label "Amphibian Species of the World, 5.6" ;
     dc:bibliographicCitation "Frost, Darrel R. 2013. Amphibian Species of the World: an Online Reference. Version 5.6 (9 January 2013). Electronic Database accessible at http://research.amnh.org/herpetology/amphibia/index.html. American Museum of Natural History, New York, USA." ;
+.
+
+# Alytidae Fitzinger, 1843 from ITIS
+txnc:Alytidae_itis2012dec27
+    rdfs:label "Alytidae Fitzinger, 1843";
+    taxmeon:occursInNameCollection lit:ITIS_2012_dec_27;
+    taxmeon:hasValidScientificName name:Alytidae;
+.
+
+lit:ITIS_2012_dec_27
+    rdfs:label "ITIS as of December 27, 2012";
+    dc:bibliographicCitation "Retrieved [month, day, year], from the Integrated Taxonomic Information System on-line database, http://www.itis.gov.";
+    rdfs:seeAlso <http://www.itis.gov>;
 .
