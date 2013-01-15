@@ -1,0 +1,15 @@
+PREFIX taxus: <http://gaurav.github.com/linkednames/rdf/alytidae.rdf#taxus_>
+PREFIX taxmeon: <http://schema.onki.fi/taxmeon/#>
+
+---
+SELECT ?s ?p ?o WHERE { ?s ?p ?o }
+
+--- 
+
+SELECT ?tc ?name WHERE { ?tc taxmeon:hasScientificName ?name }
+
+--- Is this name valid or a synonym?
+PREFIX taxus: <http://gaurav.github.com/linkednames/rdf/alytidae.rdf#taxus_>
+PREFIX taxmeon: <http://schema.onki.fi/taxmeon/#>
+
+SELECT ?accepted_tc WHERE { ?tc taxmeon:hasScientificName <http://gaurav.github.com/linkednames/rdf/alytidae.rdf#name_Alytae> . ?tc taxus:hasAcceptedConcept ?accepted_tc }
