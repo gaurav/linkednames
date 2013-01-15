@@ -1,3 +1,5 @@
+# This file should be identified as
+# <http://gaurav.github.com/linkednames/rdf/alytidae/alytidae.rdf>
 
 # Standard includes.
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -11,19 +13,26 @@
 # Our properties.
 @prefix taxus: <http://gaurav.github.com/linkednames/rdf/alytidae.rdf#taxus_> .
 
-taxus:hasValidScientificName
-    rdfs:subPropertyOf taxmeon:hasScientificName;
-    rdfs:label "Has a valid scientific name.";
-.
-
-taxus:hasSynonymScientificName
-    rdfs:subPropertyOf taxmeon:hasScientificName;
-    rdfs:label "Has a synonymized scientific name.";
+taxus:hasSynonym
+    rdfs:label "Is synonymous with another taxon concept";
 .
 
 taxus:namePublishedIn
+    rdfs:label      "Where was this scientific name published?";
     rdfs:domain     taxmeon:ScientificName;
     rdfs:range      taxmeon:Reference;
+.
+
+taxus:hasType
+    rdfs:label      "What is the type of this taxon concept?";
+    rdfs:comment    "Always another taxon concept.";
+    rdfs:domain     taxmeon:TaxonomicConcept;
+    rdfs:range      taxmeon:TaxonomicConcept;
+.
+
+taxus:canonicalName
+    rdfs:label      "The canonical name.";
+    rdfs:range      rdfs:Literal;
 .
 
 # Our data namespaces
@@ -32,15 +41,28 @@ taxus:namePublishedIn
 @prefix lit: <http://gaurav.github.com/linkednames/rdf/alytidae.rdf#lit_> .
 
 # Alytidae Fitzinger, 1843 from ASW5.6
-txnc:Alytidae_asw5_6
+txnc:Alytidae_asw56
     rdfs:label "Alytidae Fitzinger, 1843 sec ASW5.6";
     taxmeon:occursInNameCollection lit:ASW56;
-    taxus:hasValidScientificName name:Alytidae;
+    taxmeon:hasScientificName name:Alytidae;
+    taxus:hasAcceptedConcept txnc:Alytidae_asw56;
 .
 
 name:Alytidae
     rdfs:label "Alytidae Fitzinger, 1843";
-    taxus:namePublishedIn lit:asw56_bib1698;
+    taxus:canonicalName "Alytidae";
+.
+
+txnc:Alytae_asw56
+    rdfs:label "Alytae Fitzinger, 1843";
+    taxmeon:hasScientificName name:Alytae;
+    taxus:hasType name:Alytes_asw56;
+    taxus:hasAcceptedConcept txnc:Alytidae_asw56;
+.
+
+name:Alytae
+    rdfs:label "Alytae Fitzinger, 1843";
+    taxus:canonicalName "Alytae";
 .
 
 lit:ASW56
@@ -52,7 +74,7 @@ lit:ASW56
 txnc:Alytidae_itis2012dec27
     rdfs:label "Alytidae Fitzinger, 1843";
     taxmeon:occursInNameCollection lit:ITIS_2012_dec_27;
-    taxmeon:hasValidScientificName name:Alytidae;
+    taxmeon:hasScientificName name:Alytidae;
 .
 
 lit:ITIS_2012_dec_27
