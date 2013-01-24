@@ -112,6 +112,16 @@
         <NamedIndividual IRI="#LN_100005"/>
         <NamedIndividual IRI="#LN_100006"/>
     </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LN_100010"/>
+        <NamedIndividual IRI="#LN_100011"/>
+        <NamedIndividual IRI="#LN_100000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasScientificName"/>
+        <NamedIndividual IRI="#LN_100011"/>
+        <NamedIndividual IRI="#LN_100012"/>
+    </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://www.yso.fi/onto/taxmeon/bibliographicCitation"/>
         <NamedIndividual IRI="#LN_100001"/>
