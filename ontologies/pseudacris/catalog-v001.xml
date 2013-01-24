@@ -2,9 +2,9 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="Imports Wizard Entry" name="http://www.yso.fi/onto/taxmeon/" uri="ext/taxmeon.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1358982311625" name="http://gaurav.github.com/linkednames/ontologies/pseudacris/pseudacris_asw56.owl" uri="pseudacris_asw56.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1358982311625" name="http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl" uri="ext/protege-dc.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1358982311625" name="http://www.yso.fi/onto/taxmeon/" uri="ext/taxmeon.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1358982311625" name="http://www.yso.fi/onto/taxonomic-ranks" uri="ext/TaxonomicRanks.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1358986206902" name="http://gaurav.github.com/linkednames/ontologies/pseudacris/pseudacris_asw56.owl" uri="pseudacris_asw56.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1358986206902" name="http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl" uri="ext/protege-dc.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1358986206902" name="http://www.yso.fi/onto/taxmeon/" uri="ext/taxmeon.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1358986206902" name="http://www.yso.fi/onto/taxonomic-ranks" uri="ext/TaxonomicRanks.owl"/>
     </group>
 </catalog>

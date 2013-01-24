@@ -17,12 +17,241 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      ontologyIRI="http://gaurav.github.com/linkednames/ontologies/pseudacris/pseudacris_asw56.owl"
      versionIRI="http://gaurav.github.com/linkednames/ontologies/pseudacris/1.0.0/pseudacris_asw56.owl">
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl</Import>
     <Import>http://www.yso.fi/onto/taxmeon/</Import>
+    <Declaration>
+        <Class IRI="#LN_100008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LN_100009"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#LN_100007"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#LN_100010"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#LN_100014"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://purl.org/dc/terms/isPartOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100000"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100004"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100005"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100006"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100011"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LN_100012"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#LN_100008"/>
+        <Class IRI="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LN_100009"/>
+        <Class IRI="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+    </SubClassOf>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LN_100007"/>
+        <NamedIndividual IRI="#LN_100000"/>
+        <NamedIndividual IRI="#LN_100005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#LN_100010"/>
+        <NamedIndividual IRI="#LN_100000"/>
+        <NamedIndividual IRI="#LN_100000"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasScientificName"/>
+        <NamedIndividual IRI="#LN_100000"/>
+        <NamedIndividual IRI="#LN_100004"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/isPublishedIn"/>
+        <NamedIndividual IRI="#LN_100000"/>
+        <NamedIndividual IRI="#LN_100001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/publishedOriginallyIn"/>
+        <NamedIndividual IRI="#LN_100000"/>
+        <NamedIndividual IRI="#LN_100002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://purl.org/dc/terms/isPartOf"/>
+        <NamedIndividual IRI="#LN_100002"/>
+        <NamedIndividual IRI="#LN_100003"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasScientificName"/>
+        <NamedIndividual IRI="#LN_100005"/>
+        <NamedIndividual IRI="#LN_100006"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.yso.fi/onto/taxmeon/bibliographicCitation"/>
+        <NamedIndividual IRI="#LN_100001"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Frost, Darrel R. 2013. Amphibian Species of the World: an Online Reference. Version 5.6 (9 January 2013). Electronic Database accessible at http://research.amnh.org/herpetology/amphibia/index.html. American Museum of Natural History, New York, USA.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.yso.fi/onto/taxmeon/publishedInYear"/>
+        <NamedIndividual IRI="#LN_100001"/>
+        <Literal datatypeIRI="&xsd;int">2013</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.yso.fi/onto/taxmeon/bibliographicCitation"/>
+        <NamedIndividual IRI="#LN_100003"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Fitzinger, L. J. F. J. 1843. Systema Reptilium. Fasciculus Primus. Wien: Braumüller et Seidel.</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/publishedOriginallyIn"/>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/isPublishedIn"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.yso.fi/onto/taxmeon/hasScientificName"/>
+        <ObjectProperty IRI="#LN_100014"/>
+    </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#LN_100010"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="http://purl.org/dc/terms/isPartOf"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#LN_100007"/>
+        <Class IRI="#LN_100008"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#LN_100010"/>
+        <Class IRI="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LN_100007"/>
+        <Class IRI="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#LN_100010"/>
+        <Class IRI="http://www.yso.fi/onto/taxmeon/TaxonomicConcept"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100000</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pseudacris Fitzinger, 1843 sec. ASW5.6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
+        <IRI>#LN_100001</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Frost, Darrel R.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
+        <IRI>#LN_100001</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Amphibian Species of the World: an Online Reference. Version 5.6 (9 January 2013).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100001</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Amphibian Species of the World 5.6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100002</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Fitzinger, 1843, Syst. Rept.: 31</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/identifier"/>
+        <IRI>#LN_100003</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">asw/bib/1698</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100003</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Fitzinger, L. J. F. J. 1843. Systema Reptilium. Fasciculus Primus.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100004</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pseudacris Fitzinger, 1843</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100005</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Rana nigrita LeConte, 1825 sec Fitzinger, 1843</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100006</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Rana nigrita LeConte, 1825</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100007</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasTypeConcept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100008</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Higher taxonomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100009</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Species-level taxon concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100010</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasAcceptedConcept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100011</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chorophilus Baird, 1854 sec. ASW5.6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100012</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Chorophilus Baird, 1854</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100012</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chorophilus Baird, 1854</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LN_100014</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasTaxonConcept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.org/dc/terms/isPartOf</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">dc:isPartOf</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
