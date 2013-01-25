@@ -1,0 +1,13 @@
+# Dump everything
+SELECT ?s ?p ?o { ?s ?p ?o }
+
+# Canonical name -> all taxon concepts
+@PREFIX taxmeon: <http://www.yso.fi/onto/taxmeon/> .
+@PREFIX prop: <http://gaurav.github.com/linkednames/asw/names.ttl#prop_>
+SELECT ?concept { ?concept taxmeon:hasScientificName ?name . ?name prop:hasCanonicalName "Pseudacris regilla" }
+
+# Scratch space
+prefix taxmeon: <http://www.yso.fi/onto/taxmeon/>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix prop: <http://gaurav.github.com/linkednames/asw/names.ttl#prop_>
+SELECT ?concept ?concept_label ?accepted ?accepted_label { ?concept prop:hasAcceptedConcept* ?accepted . ?concept taxmeon:hasScientificName ?name . ?name prop:hasCanonicalName "Hyla regilla" . ?concept rdfs:label ?concept_label . ?accepted rdfs:label ?accepted_label }

@@ -1,0 +1,1346 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix taxmeon: <http://www.yso.fi/onto/taxmeon/> .
+
+#@base <http://gaurav.github.com/linkednames/asw/names.ttl#> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> dc:bibliographicCitation "Frost, Darrel R. 2013. Amphibian Species of the World: an Online Reference. Version 5.6 (9 January 2013). Electronic Database accessible at http://research.amnh.org/herpetology/amphibia/index.html. American Museum of Natural History, New York, USA." ;
+	dc:creator "Darrel R. Frost" ;
+	rdfs:label "Amphibian Species of the World, 5.6" ;
+	taxmeon:publishedInYear "2013" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100000> a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris Fitzinger, 1843" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100002> a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100004> a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100006> a taxmeon:ScientificName ;
+	rdfs:label "Helocaetes" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100008> a taxmeon:ScientificName ;
+	rdfs:label "Heloecetes" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100010> a taxmeon:ScientificName ;
+	rdfs:label "Hyliola" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100012> a taxmeon:ScientificName ;
+	rdfs:label "Limnaoedus" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100014> a taxmeon:ScientificName ;
+	rdfs:label "Parapseudacris" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100016> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris brimleyi" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris brimleyi Brandt and Walker, 1933" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100018> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris brimleyi" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris brimleyi" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100020> a taxmeon:ScientificName ;
+	rdfs:label "Hyla (Pseudacris) brimleyi" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100022> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris cadaverina" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris cadaverina (Cope, 1866)" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100024> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla nebulosa" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla nebulosa" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100026> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla cadaverina" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla cadaverina" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100028> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla californiae" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla californiae" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100030> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris cadaverina" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris cadaverina" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100032> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris clarkii" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris clarkii (Baird, 1854)" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100034> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Helocaetes clarkii" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Helocaetes clarkii" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100036> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Heloecetes clarkii" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Heloecetes clarkii" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100038> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus triseriatus clarkii" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus triseriatus clarkii" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100040> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris triseriata clarkii" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris triseriata clarkii" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100042> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris nigrita clarkii" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris nigrita clarkii" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100044> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris clarkii" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris clarkii" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100046> a taxmeon:ScientificName ;
+	rdfs:label "Hyla (Pseudacris) clarkii" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100048> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris crucifer" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris crucifer (Wied-Neuwied, 1838)" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100050> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla crucifer" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla crucifer" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100052> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hylodes pickeringii" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hylodes pickeringii" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100054> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla pickeringii" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla pickeringii" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100056> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Acris pickeringii" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Acris pickeringii" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100058> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyliola pickeringii" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyliola pickeringii" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100060> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla crucifera" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla crucifera" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100062> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla crucifera crucifera" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla crucifera crucifera" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100064> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla crucifera bartramiana" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla crucifera bartramiana" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100066> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Parapseudacris crucifer" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Parapseudacris crucifer" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100068> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris crucifer" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris crucifer" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100070> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris crucifer bartramiana" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris crucifer bartramiana" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100072> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris crucifer crucifer" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris crucifer crucifer" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100074> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris feriarum" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris feriarum (Baird, 1854)" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100076> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Helocaetes feriarum" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Helocaetes feriarum" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100078> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris feriarum" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris feriarum" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100080> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus feriarum feriarum" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus feriarum feriarum" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100082> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus nigritus feriarum" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus nigritus feriarum" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100084> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla feriarum" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla feriarum" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100086> a taxmeon:ScientificName ;
+	rdfs:label "Hyla (Pseudacris) feriarum" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100088> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris nigrita feriarum" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris nigrita feriarum" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100090> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris triseriata feriarum" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris triseriata feriarum" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100092> a taxmeon:ScientificName ;
+	rdfs:label "Hyla (Pseudacris) triseriata feriarum" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100094> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris feriarum feriarum" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris feriarum feriarum" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100096> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris fouquettei" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris fouquettei Lemmon, Lemmon, Collins, and Cannatella, 2008" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100098> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris fouquettei" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris fouquettei" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100100> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris hypochondriaca" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris hypochondriaca (Hallowell, 1854)" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100102> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla scapularis var" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla scapularis var. hypochondriaca" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100104> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla curta" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla curta" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100106> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla regilla var" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla regilla var. laticeps" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100108> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla regilla curta" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla regilla curta" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100110> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla regilla deserticola" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla regilla deserticola" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100112> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla regilla hypochondriaca" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla regilla hypochondriaca" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100114> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris hypochondriaca" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris hypochondriaca" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100116> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris hypochondriaca hypochondriaca" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris hypochondriaca hypochondriaca" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100118> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris hypochondriaca curta" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris hypochondriaca curta" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100120> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris illinoensis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris illinoensis Smith, 1951" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100122> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris triseriata illinoensis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris triseriata illinoensis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100124> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris triseriata illinoisensis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris triseriata illinoisensis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100126> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris streckeri illinoensis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris streckeri illinoensis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100128> a taxmeon:ScientificName ;
+	rdfs:label "Hyla (Pseudacris) streckeri illinoensis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100130> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris illinoensis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris illinoensis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100132> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris kalmi" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris kalmi Harper, 1955" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100134> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus triseriatus corporalis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus triseriatus corporalis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100136> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris nigrita kalmi" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris nigrita kalmi" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100138> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris triseriata kalmi" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris triseriata kalmi" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100140> a taxmeon:ScientificName ;
+	rdfs:label "Hyla (Pseudacris) triseriata kalmi" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100142> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris kalmi" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris kalmi" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100144> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris maculata" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris maculata (Agassiz, 1850)" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100146> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hylodes maculatus" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hylodes maculatus" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100148> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus septentrionalis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus septentrionalis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100150> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus nigritus septentrionalis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus nigritus septentrionalis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100152> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris septentrionalis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris septentrionalis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100154> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla septentrionalis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla septentrionalis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100156> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla canadensis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla canadensis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100158> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris nigrita septentrionalis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris nigrita septentrionalis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100160> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris nigrita maculata" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris nigrita maculata" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100162> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris triseriata maculata" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris triseriata maculata" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100164> a taxmeon:ScientificName ;
+	rdfs:label "Hyla (Pseudacris) triseriata maculata" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100166> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris maculata" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris maculata" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100168> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris nigrita" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris nigrita (LeConte, 1825)" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100170> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Rana nigrita" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Rana nigrita" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100172> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Acris nigrita" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Acris nigrita" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100174> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Cystignathus nigritus" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Cystignathus nigritus" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100176> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris nigrita" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris nigrita" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100178> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus nigritus" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus nigritus" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100180> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus verrucosus" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus verrucosus" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100182> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla verrucosa" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla verrucosa" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100184> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus nigritus verrucosus" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus nigritus verrucosus" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100186> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris verrucosus" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris verrucosus" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100188> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla nigrita" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla nigrita" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100190> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris nigrita nigrita" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris nigrita nigrita" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100192> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris nigrita verrucosa" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris nigrita verrucosa" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100194> a taxmeon:ScientificName ;
+	rdfs:label "Hyla (Pseudacris) nigrita floridensis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100196> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris ocularis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris ocularis (Bosc, 1801)" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100198> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla ocularis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla ocularis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100200> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla oculata" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla oculata" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100202> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Calamita ocularis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Calamita ocularis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100204> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Auletris ocularis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Auletris ocularis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100206> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hylodes ocularis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hylodes ocularis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100208> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus angulatus" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus angulatus" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100210> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Cystignathus ocularis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Cystignathus ocularis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100212> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus ocularis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus ocularis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100214> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris ocularis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris ocularis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100216> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Acris ocularis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Acris ocularis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100218> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Limnaoedus ocularis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Limnaoedus ocularis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100220> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris ornata" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris ornata (Holbrook, 1836)" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100222> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Rana ornata" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Rana ornata" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100224> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Cystignathus ornatus" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Cystignathus ornatus" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100226> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Litoria occidentalis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Litoria occidentalis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100228> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus ornatus" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus ornatus" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100230> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus copii" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus copii" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100232> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus occidentalis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus occidentalis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100234> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla copii" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla copii" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100236> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris occidentalis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris occidentalis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100238> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris ornata" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris ornata" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100240> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla ornata" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla ornata" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100242> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris copii" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris copii" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100244> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla occidentalis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla occidentalis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100246> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla weberi" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla weberi" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100248> a taxmeon:ScientificName ;
+	rdfs:label "Hyla (Pseudacris) ornata" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100250> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris regilla" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris regilla (Baird and Girard, 1852)" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100252> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla regilla" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla regilla" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100254> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla scapularis" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla scapularis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100256> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla regilla var" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla regilla var. scapularis" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100258> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla regilla var" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla regilla var. regilla" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100260> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyliola regilla" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyliola regilla" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100262> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla regilla pacifica" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla regilla pacifica" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100264> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla regilla cascadae" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla regilla cascadae" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100266> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris regilla" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris regilla" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100268> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris pacifica" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris pacifica" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100270> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris sierra" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris sierra (Jameson, Mackey, and Richmond, 1966)" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100272> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla regilla sierra" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla regilla sierra" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100274> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla regilla palouse" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla regilla palouse" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100276> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla sierra" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla sierra" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100278> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris streckeri" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris streckeri Wright and Wright, 1933" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100280> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris streckeri" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris streckeri" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100282> a taxmeon:ScientificName ;
+	rdfs:label "Hyla (Pseudacris) streckeri streckeri" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100284> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris triseriata" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris triseriata (Wied-Neuwied, 1838)" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100286> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Hyla triseriata" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Hyla triseriata" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100288> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Helocaetes triseriatus" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Helocaetes triseriatus" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100290> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus triseriatus" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus triseriatus" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100292> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus triseriatus triseriatus" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus triseriatus triseriatus" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100294> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Chorophilus nigritus triseriatus" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Chorophilus nigritus triseriatus" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100296> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris triseriata" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris triseriata" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100298> a taxmeon:ScientificName ;
+	rdfs:label "Hyla (Pseudacris) triseriata" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100300> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris nigrita triseriata" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris nigrita triseriata" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#name_100302> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> "Pseudacris triseriata triseriata" ;
+	a taxmeon:ScientificName ;
+	rdfs:label "Pseudacris triseriata triseriata" .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasCanonicalName> dc:description "Records the canonical name for a taxmeon:ScientificName" ;
+	rdfs:domain taxmeon:ScientificName ;
+	rdfs:label "Has canonical name" ;
+	rdfs:range rdfs:Literal .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100001> rdfs:label "Pseudacris Fitzinger, 1843 sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100000> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100003> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100001> ;
+	rdfs:label "Pseudacris sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100002> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100005> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100001> ;
+	rdfs:label "Chorophilus sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100004> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100007> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100001> ;
+	rdfs:label "Helocaetes sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100006> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100009> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100001> ;
+	rdfs:label "Heloecetes sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100008> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100011> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100001> ;
+	rdfs:label "Hyliola sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100010> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100013> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100001> ;
+	rdfs:label "Limnaoedus sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100012> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100015> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100001> ;
+	rdfs:label "Parapseudacris sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100014> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100017> rdfs:label "Pseudacris brimleyi Brandt and Walker, 1933 sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100016> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100019> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100017> ;
+	rdfs:label "Pseudacris brimleyi sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100018> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100021> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100017> ;
+	rdfs:label "Hyla (Pseudacris) brimleyi sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100020> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100023> rdfs:label "Pseudacris cadaverina (Cope, 1866) sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100022> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100025> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100023> ;
+	rdfs:label "Hyla nebulosa sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100024> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100027> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100023> ;
+	rdfs:label "Hyla cadaverina sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100026> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100029> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100023> ;
+	rdfs:label "Hyla californiae sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100028> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100031> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100023> ;
+	rdfs:label "Pseudacris cadaverina sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100030> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100033> rdfs:label "Pseudacris clarkii (Baird, 1854) sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100032> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100035> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100033> ;
+	rdfs:label "Helocaetes clarkii sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100034> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100037> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100033> ;
+	rdfs:label "Heloecetes clarkii sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100036> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100039> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100033> ;
+	rdfs:label "Chorophilus triseriatus clarkii sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100038> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100041> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100033> ;
+	rdfs:label "Pseudacris triseriata clarkii sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100040> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100043> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100033> ;
+	rdfs:label "Pseudacris nigrita clarkii sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100042> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100045> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100033> ;
+	rdfs:label "Pseudacris clarkii sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100044> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100047> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100033> ;
+	rdfs:label "Hyla (Pseudacris) clarkii sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100046> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100049> rdfs:label "Pseudacris crucifer (Wied-Neuwied, 1838) sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100048> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100051> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100049> ;
+	rdfs:label "Hyla crucifer sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100050> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100053> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100049> ;
+	rdfs:label "Hylodes pickeringii sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100052> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100055> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100049> ;
+	rdfs:label "Hyla pickeringii sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100054> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100057> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100049> ;
+	rdfs:label "Acris pickeringii sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100056> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100059> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100049> ;
+	rdfs:label "Hyliola pickeringii sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100058> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100061> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100049> ;
+	rdfs:label "Hyla crucifera sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100060> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100063> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100049> ;
+	rdfs:label "Hyla crucifera crucifera sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100062> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100065> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100049> ;
+	rdfs:label "Hyla crucifera bartramiana sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100064> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100067> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100049> ;
+	rdfs:label "Parapseudacris crucifer sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100066> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100069> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100049> ;
+	rdfs:label "Pseudacris crucifer sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100068> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100071> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100049> ;
+	rdfs:label "Pseudacris crucifer bartramiana sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100070> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100073> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100049> ;
+	rdfs:label "Pseudacris crucifer crucifer sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100072> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100075> rdfs:label "Pseudacris feriarum (Baird, 1854) sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100074> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100077> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100075> ;
+	rdfs:label "Helocaetes feriarum sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100076> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100079> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100075> ;
+	rdfs:label "Pseudacris feriarum sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100078> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100081> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100075> ;
+	rdfs:label "Chorophilus feriarum feriarum sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100080> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100083> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100075> ;
+	rdfs:label "Chorophilus nigritus feriarum sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100082> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100085> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100075> ;
+	rdfs:label "Hyla feriarum sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100084> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100087> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100075> ;
+	rdfs:label "Hyla (Pseudacris) feriarum sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100086> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100089> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100075> ;
+	rdfs:label "Pseudacris nigrita feriarum sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100088> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100091> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100075> ;
+	rdfs:label "Pseudacris triseriata feriarum sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100090> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100093> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100075> ;
+	rdfs:label "Hyla (Pseudacris) triseriata feriarum sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100092> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100095> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100075> ;
+	rdfs:label "Pseudacris feriarum feriarum sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100094> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100097> rdfs:label "Pseudacris fouquettei Lemmon, Lemmon, Collins, and Cannatella, 2008 sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100096> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100099> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100097> ;
+	rdfs:label "Pseudacris fouquettei sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100098> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100101> rdfs:label "Pseudacris hypochondriaca (Hallowell, 1854) sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100100> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100103> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100101> ;
+	rdfs:label "Hyla scapularis var. hypochondriaca sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100102> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100105> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100101> ;
+	rdfs:label "Hyla curta sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100104> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100107> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100101> ;
+	rdfs:label "Hyla regilla var. laticeps sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100106> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100109> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100101> ;
+	rdfs:label "Hyla regilla curta sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100108> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100111> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100101> ;
+	rdfs:label "Hyla regilla deserticola sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100110> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100113> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100101> ;
+	rdfs:label "Hyla regilla hypochondriaca sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100112> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100115> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100101> ;
+	rdfs:label "Pseudacris hypochondriaca sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100114> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100117> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100101> ;
+	rdfs:label "Pseudacris hypochondriaca hypochondriaca sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100116> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100119> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100101> ;
+	rdfs:label "Pseudacris hypochondriaca curta sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100118> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100121> rdfs:label "Pseudacris illinoensis Smith, 1951 sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100120> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100123> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100121> ;
+	rdfs:label "Pseudacris triseriata illinoensis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100122> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100125> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100121> ;
+	rdfs:label "Pseudacris triseriata illinoisensis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100124> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100127> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100121> ;
+	rdfs:label "Pseudacris streckeri illinoensis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100126> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100129> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100121> ;
+	rdfs:label "Hyla (Pseudacris) streckeri illinoensis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100128> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100131> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100121> ;
+	rdfs:label "Pseudacris illinoensis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100130> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100133> rdfs:label "Pseudacris kalmi Harper, 1955 sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100132> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100135> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100133> ;
+	rdfs:label "Chorophilus triseriatus corporalis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100134> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100137> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100133> ;
+	rdfs:label "Pseudacris nigrita kalmi sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100136> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100139> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100133> ;
+	rdfs:label "Pseudacris triseriata kalmi sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100138> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100141> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100133> ;
+	rdfs:label "Hyla (Pseudacris) triseriata kalmi sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100140> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100143> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100133> ;
+	rdfs:label "Pseudacris kalmi sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100142> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100145> rdfs:label "Pseudacris maculata (Agassiz, 1850) sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100144> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100147> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100145> ;
+	rdfs:label "Hylodes maculatus sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100146> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100149> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100145> ;
+	rdfs:label "Chorophilus septentrionalis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100148> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100151> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100145> ;
+	rdfs:label "Chorophilus nigritus septentrionalis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100150> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100153> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100145> ;
+	rdfs:label "Pseudacris septentrionalis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100152> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100155> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100145> ;
+	rdfs:label "Hyla septentrionalis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100154> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100157> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100145> ;
+	rdfs:label "Hyla canadensis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100156> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100159> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100145> ;
+	rdfs:label "Pseudacris nigrita septentrionalis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100158> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100161> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100145> ;
+	rdfs:label "Pseudacris nigrita maculata sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100160> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100163> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100145> ;
+	rdfs:label "Pseudacris triseriata maculata sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100162> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100165> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100145> ;
+	rdfs:label "Hyla (Pseudacris) triseriata maculata sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100164> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100167> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100145> ;
+	rdfs:label "Pseudacris maculata sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100166> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100169> rdfs:label "Pseudacris nigrita (LeConte, 1825) sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100168> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100171> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100169> ;
+	rdfs:label "Rana nigrita sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100170> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100173> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100169> ;
+	rdfs:label "Acris nigrita sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100172> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100175> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100169> ;
+	rdfs:label "Cystignathus nigritus sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100174> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100177> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100169> ;
+	rdfs:label "Pseudacris nigrita sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100176> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100179> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100169> ;
+	rdfs:label "Chorophilus nigritus sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100178> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100181> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100169> ;
+	rdfs:label "Chorophilus verrucosus sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100180> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100183> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100169> ;
+	rdfs:label "Hyla verrucosa sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100182> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100185> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100169> ;
+	rdfs:label "Chorophilus nigritus verrucosus sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100184> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100187> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100169> ;
+	rdfs:label "Pseudacris verrucosus sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100186> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100189> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100169> ;
+	rdfs:label "Hyla nigrita sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100188> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100191> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100169> ;
+	rdfs:label "Pseudacris nigrita nigrita sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100190> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100193> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100169> ;
+	rdfs:label "Pseudacris nigrita verrucosa sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100192> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100195> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100169> ;
+	rdfs:label "Hyla (Pseudacris) nigrita floridensis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100194> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100197> rdfs:label "Pseudacris ocularis (Bosc, 1801) sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100196> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100199> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100197> ;
+	rdfs:label "Hyla ocularis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100198> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100201> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100197> ;
+	rdfs:label "Hyla oculata sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100200> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100203> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100197> ;
+	rdfs:label "Calamita ocularis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100202> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100205> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100197> ;
+	rdfs:label "Auletris ocularis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100204> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100207> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100197> ;
+	rdfs:label "Hylodes ocularis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100206> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100209> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100197> ;
+	rdfs:label "Chorophilus angulatus sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100208> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100211> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100197> ;
+	rdfs:label "Cystignathus ocularis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100210> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100213> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100197> ;
+	rdfs:label "Chorophilus ocularis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100212> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100215> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100197> ;
+	rdfs:label "Pseudacris ocularis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100214> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100217> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100197> ;
+	rdfs:label "Acris ocularis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100216> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100219> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100197> ;
+	rdfs:label "Limnaoedus ocularis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100218> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100221> rdfs:label "Pseudacris ornata (Holbrook, 1836) sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100220> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100223> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100221> ;
+	rdfs:label "Rana ornata sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100222> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100225> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100221> ;
+	rdfs:label "Cystignathus ornatus sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100224> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100227> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100221> ;
+	rdfs:label "Litoria occidentalis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100226> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100229> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100221> ;
+	rdfs:label "Chorophilus ornatus sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100228> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100231> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100221> ;
+	rdfs:label "Chorophilus copii sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100230> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100233> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100221> ;
+	rdfs:label "Chorophilus occidentalis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100232> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100235> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100221> ;
+	rdfs:label "Hyla copii sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100234> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100237> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100221> ;
+	rdfs:label "Pseudacris occidentalis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100236> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100239> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100221> ;
+	rdfs:label "Pseudacris ornata sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100238> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100241> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100221> ;
+	rdfs:label "Hyla ornata sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100240> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100243> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100221> ;
+	rdfs:label "Pseudacris copii sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100242> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100245> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100221> ;
+	rdfs:label "Hyla occidentalis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100244> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100247> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100221> ;
+	rdfs:label "Hyla weberi sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100246> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100249> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100221> ;
+	rdfs:label "Hyla (Pseudacris) ornata sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100248> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100251> rdfs:label "Pseudacris regilla (Baird and Girard, 1852) sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100250> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100253> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100251> ;
+	rdfs:label "Hyla regilla sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100252> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100255> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100251> ;
+	rdfs:label "Hyla scapularis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100254> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100257> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100251> ;
+	rdfs:label "Hyla regilla var. scapularis sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100256> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100259> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100251> ;
+	rdfs:label "Hyla regilla var. regilla sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100258> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100261> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100251> ;
+	rdfs:label "Hyliola regilla sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100260> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100263> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100251> ;
+	rdfs:label "Hyla regilla pacifica sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100262> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100265> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100251> ;
+	rdfs:label "Hyla regilla cascadae sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100264> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100267> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100251> ;
+	rdfs:label "Pseudacris regilla sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100266> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100269> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100251> ;
+	rdfs:label "Pseudacris pacifica sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100268> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100271> rdfs:label "Pseudacris sierra (Jameson, Mackey, and Richmond, 1966) sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100270> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100273> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100271> ;
+	rdfs:label "Hyla regilla sierra sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100272> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100275> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100271> ;
+	rdfs:label "Hyla regilla palouse sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100274> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100277> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100271> ;
+	rdfs:label "Hyla sierra sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100276> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100279> rdfs:label "Pseudacris streckeri Wright and Wright, 1933 sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100278> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100281> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100279> ;
+	rdfs:label "Pseudacris streckeri sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100280> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100283> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100279> ;
+	rdfs:label "Hyla (Pseudacris) streckeri streckeri sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100282> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100285> rdfs:label "Pseudacris triseriata (Wied-Neuwied, 1838) sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100284> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100287> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100285> ;
+	rdfs:label "Hyla triseriata sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100286> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100289> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100285> ;
+	rdfs:label "Helocaetes triseriatus sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100288> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100291> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100285> ;
+	rdfs:label "Chorophilus triseriatus sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100290> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100293> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100285> ;
+	rdfs:label "Chorophilus triseriatus triseriatus sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100292> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100295> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100285> ;
+	rdfs:label "Chorophilus nigritus triseriatus sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100294> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100297> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100285> ;
+	rdfs:label "Pseudacris triseriata sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100296> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100299> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100285> ;
+	rdfs:label "Hyla (Pseudacris) triseriata sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100298> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100301> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100285> ;
+	rdfs:label "Pseudacris nigrita triseriata sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100300> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
+
+<http://gaurav.github.com/linkednames/asw/names.ttl#tc_100303> <http://gaurav.github.com/linkednames/asw/names.ttl#prop_hasAcceptedConcept> <http://gaurav.github.com/linkednames/asw/names.ttl#tc_100285> ;
+	rdfs:label "Pseudacris triseriata triseriata sec. Amphibian Species of the World, 5.6" ;
+	taxmeon:hasScientificName <http://gaurav.github.com/linkednames/asw/names.ttl#name_100302> ;
+	taxmeon:isPublishedIn <http://gaurav.github.com/linkednames/asw/names.ttl#lit_asw5_6_2013> .
