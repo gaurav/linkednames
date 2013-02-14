@@ -1,0 +1,14 @@
+# 
+# Triples that should go into all files.
+#
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Some properties.
+<#prop_hasCanonicalName>
+    rdfs:label "Has canonical name";
+    dc:description "Records the canonical name for a taxmeon:ScientificName";
+    rdfs:domain <http://www.yso.fi/onto/taxmeon/ScientificName>;
+    rdfs:range <http://www.yso.fi/onto/taxmeon/ScientificName>;
+.
